@@ -35,7 +35,7 @@ Content-Transfer-Encoding: 7bit
 <img src="<?=$email_image?>" width="282" height="179" />
 
 --PHP-alt-<?php echo $random_hash; ?>--
-<?
+<?php
 //copy current buffer contents into $message variable and delete current output buffer
 $message = ob_get_clean();
 //send the email

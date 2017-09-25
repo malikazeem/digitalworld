@@ -284,7 +284,7 @@ $card_view 	= "style='display: none;'";
 										<div class="col-md-offset-3 col-md-9" style="color: red;">
 											This is your new purchased card
 											<br/>
-											<div id="id="print_me">
+											<div id=print_me">
 												<img src="<?=$target_user_card?>" width="282" height="179">
 											</div>											
 											<button onclick="printContent('print_me')">Print Card</button>											
