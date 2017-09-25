@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document 
+Author Name: Saptarang
+Author URI: http://www.saptarang.org
+Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+Creation Date: 5 March, 2015
+Description: A default stylesheet for Products & Services Landing Page Template, Designed & Developed By Saptarang.
+
+------------ TABLE OF CONTENT ------------
+
+- PRIMARY COLOR
+- SECONDARY
+- LIGHT
+- DARK GREY
+
+*/
+/* ======================= */
+/* ========= PRIMARY ======== */
+/* ======================= */
+a, .price span, h5, h1 span, #subscribe input[type=submit], .contactInfo p i {
+	color: #ff4081;
+}
+#testimonial .quoteImg img {
+	border: 5px solid #ff4081;
+}
+
+/* == Background PRIMARY == */
+#slides h3, .btn-primary, .BGprime, h3 span, #serviceList h2 span, .option li:hover, .btn-primary, .otherServices .boxHeading h3, .panel-default > .panel-heading h4 a:before, .btn-dark:hover, .contactInfo h1, a.top,
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #ff4081;
+}
+.contactForm .form-control:focus {
+	-webkit-box-shadow: 0 0 0 5px rgba(255, 64, 129, 0.35);
+	-moz-box-shadow: 0 0 0 5px rgba(255, 64, 129, 0.35);
+	box-shadow: 0 0 0 5px rgba(255, 64, 129, 0.35);
+}
+
+/* == use rgba values here == */
+.BGprime.opaque, .otherServices ul li .link a {
+	background-color: rgba(255, 64, 129, 0.8);
+}
+
+/* ======================= */
+/* ======= SECONDARY ======= */
+/* ======================= */
+.otherServices .price span, ul.list-default li:before, #serviceList .carousel-indicators li.active:before, .contactInfo p:hover i, .main-menu li:hover > a i {
+	color: #ffc107;
+}
+#testimonial .comment h6 {
+	border-left: 6px solid #ffc107;
+}
+
+/* == Background YELLOW == */
+.BGsecondary, #slides .slides-navigation a, #serviceList .carousel-indicators > li.active img, #serviceList .carousel-indicators > li:hover img, .option li, .btn-default, .otherServices .boxHeading h3 span, .member:hover .info, .panel-default > .panel-heading h4.active a:before, #testimonial .carousel-indicators li.active, .galleryImg > a span {
+	background-color: #ffc107;
+}
+
+/* == use rgba values here == */
+.BGsblue.opaqueBG, .member .info, .otherServices ul li .link a.large {
+	background-color: rgba(255, 193, 7, 0.8);
+}
+
+/* ======================= */
+/* ====== LIGHT ======= */
+/* ======================= */
+#testimonial .comment:before {
+	color: #f2f0e6;
+}
+
+/* == Background ORANGE == */
+.BGlight, .services {
+	background-color: #f2f0e6;
+}
+
+/* ======================= */
+/* =====  DARK GREY  ===== */
+/* ======================= */
+html, body, div, pe, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav, h1, h2, h3, h4, h6, .phone small {
+	color: #434343;
+}
+
+/* == Background Color4 == */
+#slides .slide .slide-caption .container h3 span, h3, .BGdark, .phone:hover .BGsecondary, .btn:hover, .middleBox, .btn-dark, .galleryImg, .social ul li a i {
+	background-color: #434343;
+}
+nav.nav, header.BGdark, .btn:hover {
+	background-color: #333 !important;
+}
+
+
