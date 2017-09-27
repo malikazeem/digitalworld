@@ -222,7 +222,7 @@ jQuery( document ).ready( function( $ ) {
 });
 
 // Google Map	  
-	function initialize() {
+	function initMap() {
 	  var myLatlng = new google.maps.LatLng(57.7716182, 12.02014029999998); // Add your coordinates here
 	  var mapOptions = {
 		zoom: 17,
@@ -256,5 +256,5 @@ jQuery( document ).ready( function( $ ) {
 
 	}
 	
-	google.maps.event.addDomListener(window, 'load', initialize);
+	google.maps.event.addDomListener(window, 'load', initMap);
 
